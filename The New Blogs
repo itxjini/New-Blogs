@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-1MwGsrHJprkwfu5+5JnlbZ2zF5v5J5YrHTF6rL+6R04J6hRrC/XmbG+rbZpJH8x6d3XrQ1r5aU0Gr0UfK6U/qA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Marketing Products Website</title>
+  </head>
+  <body>
+    <div class="toggle-switch-container">
+      <span class="toggle-label">Light Mode</span>
+      <label class="toggle-switch">
+        <input type="checkbox" />
+        <span class="toggle-slider"></span>
+      </label>
+      <span class="toggle-label">Dark Mode</span>
+    </div>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Marketing Products Website</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+            nisi ut ex eleifend feugiat. Suspendisse potenti. Sed lacinia nulla
+            nisl, sed posuere velit rutrum vel. Ut et mauris bibendum, posuere
+            velit vel, mattis odio. Phasellus euismod quis odio id interdum.
+          </p>
+          <a href="#" class="cta-btn">Learn More</a>
+        </div>
+        <div class="hero-image">
+          <img src="https://picsum.photos/500/400" alt="hero image" />
+        </div>
+      </section>
+      <section class="features">
+        <h2>Features</h2>
+        <div class="feature-row">
+          <div class="feature-col">
+            <i class="fas fa-check-circle"></i>
+            <h3>Easy to Use</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+              nisi ut ex eleifend feugiat. Suspendisse potenti. Sed lacinia nulla
+              nisl, sed posuere velit rutrum vel.
+            </p>
+          </div>
+          <div class="feature-col">
+            <i class="fas fa-cogs"></i>
+            <h3>Customizable</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+              nisi ut ex eleifend feugiat. Suspendisse pot
+            </div>
+            <div class="feature-col">
+              <i class="fas fa-chart-line"></i>
+              <h3>Increased Productivity</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+                nisi ut ex eleifend feugiat. Suspendisse potenti. Sed lacinia nulla
+                nisl, sed posuere velit rutrum vel.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="products">
+          <h2>Our Products</h2>
+          <div class="product-row">
+            <div class="product-col">
+              <img src="https://picsum.photos/200/200" alt="product 1" />
+              <h4>Product 1</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+                nisi ut ex eleifend feugiat.
+              </p>
+              <a href="#" class="product-btn">Buy Now</a>
+            </div>
+            <div class="product-col">
+              <img src="https://picsum.photos/200/200" alt="product 2" />
+              <h4>Product 2</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+                nisi ut ex eleifend feugiat.
+              </p>
+              <a href="#" class="product-btn">Buy Now</a>
+            </div>
+            <div class="product-col">
+              <img src="https://picsum.photos/200/200" alt="product 3" />
+              <h4>Product 3</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+                nisi ut ex eleifend feugiat.
+              </p>
+              <a href="#" class="product-btn">Buy Now</a>
+            </div>
+            <div class="product-col">
+              <img src="https://picsum.photos/200/200" alt="product 4" />
+              <h4>Product 4</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+                nisi ut ex eleifend feugiat.
+              </p>
+              <a href="#" class="product-btn">Buy Now</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2023 Marketing Products Website</p>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+    </html>
